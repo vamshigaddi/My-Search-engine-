@@ -24,10 +24,10 @@ To follow this project, please install the following locally:
 ##### Python 3.9+
 ##### Required Python packages (pip install -r requirements.txt)
 # Other files
-You'll need to download a list of ad and tracker urls from my repo. We'll use this to filter out bad domains. Please save it as blacklist.txt
+You'll need to download a list of ad and tracker urls from here[https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt]. We'll use this to filter out bad domains. Please save it as blacklist.txt
 
 # Run
 Run the project with:
 
-### pip install -r requirements.txt
-### flask --debug run --port 5001
+##### pip install -r requirements.txt
+##### flask --debug run --port 5001
