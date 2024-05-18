@@ -2,21 +2,20 @@
 In this project, we'll build a search engine that uses filtering to reorder results. The engine will get results from the Google API, store them, then rank them based on filters we define. We'll end up with a basic search page and results list.
 
 # Project Steps
-
-##### Setup a programmable search engine Custom Search API
-##### You can create one from [https://developers.google.com/custom-search/v1/introduction]
-##### Create an API key for the engine
-##### Create a module to search using the API
-##### Create a Flask application to search and render results
-##### Create filters to re-rank results before displaying them
+- Setup a programmable search engine Custom Search API
+- You can create one from [https://developers.google.com/custom-search/v1/introduction]
+- Create an API key for the engine
+- Create a module to search using the API
+- Create a Flask application to search and render results
+- Create filters to re-rank results before displaying them
 
 # Code
 
-##### app.py - the web interface
-##### filter.py - the code to filter results
-##### search.py - code to get the search results
-##### settings.py - settings needed by the other files
-##### storage.py - code to save the results to a database
+- app.py - the web interface
+- filter.py - the code to filter results
+- search.py - code to get the search results
+- settings.py - settings needed by the other files
+- storage.py - code to save the results to a database
 
 # Local Setup
 To follow this project, please install the following locally:
@@ -29,5 +28,5 @@ You'll need to download a list of ad and tracker urls from here[https://raw.gith
 # Run
 Run the project with:
 
-##### pip install -r requirements.txt
-##### flask --debug run --port 5001
+- pip install -r requirements.txt
+- flask --debug run --port 5001
